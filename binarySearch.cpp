@@ -15,7 +15,9 @@ int main() {
     binarySearch(60);
     return 0;
 }
-
+// log2n = x
+// n = length of array
+// useful for sorted arrays
 int binarySearch(int target) {
     //cout -- for visual seperation of function calls
     cout << "---------------------------------------------------------------\n";
