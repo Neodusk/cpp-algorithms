@@ -17,8 +17,9 @@ int main() {
 }
 // log2n = x
 // 2^x = n
-// n = length of array
+// n = length of array, x + 1 = max number of passthroughs to find target
 // useful for sorted arrays
+
 int binarySearch(int target) {
     //cout -- for visual seperation of function calls
     cout << "---------------------------------------------------------------\n";
