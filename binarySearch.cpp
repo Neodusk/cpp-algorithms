@@ -63,5 +63,6 @@ int binarySearch(int target) {
     };
     //if min becomes greater than max, while loop is broken. # does not exist in array
     cout << "The target number does not exist in this array" << endl;
+    cout << "Total number of passthroughs " << passthroughs << endl << endl;
     return -1;
 }
